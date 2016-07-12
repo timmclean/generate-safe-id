@@ -7,5 +7,6 @@
   "license": "MIT",
   "dependencies": {
     "base64url": "^1.0.6"
-  }
+  },
+  "bin": "cli.js"
 }
