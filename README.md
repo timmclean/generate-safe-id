@@ -50,6 +50,6 @@ wiIVSSXbbnDp5NJ_x7Iu1VC2iF34WZRtt9fXh13C
 
 ##Report security vulnerabilities
 
-Contact Tim McLean at <first>@<first><last>.net
+Contact Tim McLean at `[first name]@[first name][last name].net`
 
-Note: this ID generator is not constant time (yet).
+Note: this ID generator is not constant time (see [issue #1](https://github.com/timmclean/generate-safe-id/issues/1)).
