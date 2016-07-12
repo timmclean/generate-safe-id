@@ -1,0 +1,11 @@
+{
+  "name": "generate-safe-id",
+  "version": "1.0.0",
+  "description": "Universally unique and cryptographically unpredictable URL-safe identifiers",
+  "author": "Tim McLean",
+  "repository": "github:timmclean/generate-safe-id",
+  "license": "MIT",
+  "dependencies": {
+    "base64url": "^1.0.6"
+  }
+}
