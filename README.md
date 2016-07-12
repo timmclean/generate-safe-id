@@ -9,13 +9,14 @@ and other contexts.
 ##Why not UUIDs?
 
 Random UUIDs (UUIDv4) do not have enough entropy to be universally unique
-(ironically enough). Random UUIDs have only 122 bits of entropy, which suggests
+(ironic, eh?). Random UUIDs have only 122 bits of entropy, which suggests
 that a duplicate will occur after only 2^61 IDs.  Additionally, some UUIDv4
 implementations do not use a cryptographically strong random number generator.
 
-This library generates 240-bit IDs, suggesting the first duplicate will occur
-after generating 2^120 IDs. Based on the current energy production of the human
-race, this threshold will be impossible to cross for the foreseeable future.
+This library generates 240-bit IDs using the Node.js crypto RNG, suggesting the
+first duplicate will occur after generating 2^120 IDs. Based on the current
+energy production of the human race, this threshold will be impossible to cross
+for the foreseeable future.
 
 ##Usage
 
@@ -46,3 +47,9 @@ Use the `-n` flag to prevent the output from being terminated with a line break
 $ generate-safe-id -n
 wiIVSSXbbnDp5NJ_x7Iu1VC2iF34WZRtt9fXh13C
 ```
+
+##Report security vulnerabilities
+
+Contact Tim McLean at <first>@<first><last>.net
+
+Note: this ID generator is not constant time (yet).
