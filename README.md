@@ -20,26 +20,29 @@ race, this threshold will be impossible to cross for the foreseeable future.
 ##Usage
 
 ```
-npm install generate-safe-id
+$ npm install generate-safe-id
 ```
 
 ```
 var generateSafeId = require('generate-safe-id');
 
 var id = generateSafeId();
+// id == "zVPkWyvgRW-7pSk0iRzEhdnPcnWfMRi-ZcaPxrHA"
 ```
 
 Alternatively, this library can be used from the command line when installed
 globally:
 
 ```
-npm install -g generate-safe-id
-generate-safe-id
+$ npm install -g generate-safe-id
+$ generate-safe-id
+teErzw09Am-Yq_ylT8gb3zBCbpnSWgeS-m_xv5-v
 ```
 
 Use the `-n` flag to prevent the output from being terminated with a line break
 (useful for scripting).
 
 ```
-generate-safe-id -n
+$ generate-safe-id -n
+wiIVSSXbbnDp5NJ_x7Iu1VC2iF34WZRtt9fXh13C
 ```
