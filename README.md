@@ -1,6 +1,7 @@
 #generate-safe-id
 
-Generates globally unique and cryptographically unpredictable identifiers.
+A command line tool and Node.js library for generating globally unique and
+cryptographically unpredictable identifiers.
 
 Identifiers consist entirely of uppercase and lowercase letters (a-z, A-Z),
 digits (0-9), hyphens ("-"), and underscores ("_"), making them safe in URLs
