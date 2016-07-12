@@ -21,9 +21,13 @@ for the foreseeable future.
 
 ##Usage
 
+Installation with npm:
+
 ```
 $ npm install generate-safe-id
 ```
+
+Using `generate-safe-id` from Node.js:
 
 ```
 var generateSafeId = require('generate-safe-id');
@@ -49,7 +53,7 @@ $ generate-safe-id -n
 wiIVSSXbbnDp5NJ_x7Iu1VC2iF34WZRtt9fXh13C
 ```
 
-##Report security vulnerabilities
+##Reporting security vulnerabilities
 
 Contact Tim McLean at `[first name]@[first name][last name].net` ([PGP key](https://keybase.io/timmclean)).
 
