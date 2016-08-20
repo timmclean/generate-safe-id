@@ -2,6 +2,7 @@
   "name": "generate-safe-id",
   "version": "1.0.1",
   "description": "Universally unique and cryptographically unpredictable URL-safe identifiers",
+  "keywords": ["generate", "id", "ids", "unique", "identifier", "URL", "UUID"],
   "author": "Tim McLean",
   "repository": "github:timmclean/generate-safe-id",
   "license": "MIT",
