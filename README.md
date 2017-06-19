@@ -1,4 +1,4 @@
-#generate-safe-id
+# generate-safe-id
 
 A command line tool and Node.js library for generating globally unique and
 cryptographically unpredictable identifiers.
@@ -7,7 +7,7 @@ Identifiers consist entirely of uppercase and lowercase letters (a-z, A-Z),
 digits (0-9), hyphens ("-"), and underscores ("_"), making them safe in URLs
 and other contexts.
 
-##Why not UUIDs?
+## Why not UUIDs?
 
 Random UUIDs (UUIDv4) do not have enough entropy to be universally unique
 (ironic, eh?). Random UUIDs have only 122 bits of entropy, which suggests
@@ -19,7 +19,7 @@ first duplicate will occur after generating 2^120 IDs. Based on the current
 energy production of the human race, this threshold will be impossible to cross
 for the foreseeable future.
 
-##Usage
+## Usage
 
 Installation with npm:
 
@@ -53,7 +53,7 @@ $ generate-safe-id -n
 wiIVSSXbbnDp5NJ_x7Iu1VC2iF34WZRtt9fXh13C
 ```
 
-##Reporting security vulnerabilities
+## Reporting security vulnerabilities
 
 Contact Tim McLean at `[first name]@[first name][last name].net` ([PGP key](https://keybase.io/timmclean)).
 
