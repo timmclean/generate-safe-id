@@ -15,7 +15,7 @@
   "repository": "github:timmclean/generate-safe-id",
   "license": "MIT",
   "dependencies": {
-    "base64url": "^1.0.6"
+    "base64url": "^3.0.0"
   },
   "bin": "cli.js"
 }
